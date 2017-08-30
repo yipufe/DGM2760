@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title id="c_title"></title>
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="icon" href="img/mag_icon.png">
+		
+	</head>
+	<body onresize="update()">
+		<header>
+			<h1 id="c_name"></h1>
+			<h2 id="c_slogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Welcome</h1>
+			<h2>Skills demonstrated</h2>
+			<ul>
+				<li>Getting window height and width and displaying them.</li>
+				<li>Getting screen window offsets and displaying them.</li>
+				<li>Getting page URL and displaying it</li>
+				<li>Getting page title and displaying it</li>
+				<li>Getting time of last page update and displaying it</li>
+			</ul>
+			<h2>Page Information</h2>
+			<table>
+				<tr>
+					<th>Window height</th>
+					<td id="window_height"></td>
+				</tr>
+				<tr>
+					<th>Window width</th>
+					<td id="window_width"></td>
+				</tr>
+				<tr>
+					<th>Window Offset Top</th>
+					<td id="window_offset_top"></td>
+				</tr>
+				<tr>
+					<th>Window Offset Left</th>
+					<td id="window_offset_left"></td>
+				</tr>
+				<tr>
+					<th>Page URL</th>
+					<td id="page_url"></td>
+				</tr>
+			</table>
+			<p>This document was last modified <span id="last_modified"></span>.</p>
+			<p>The page title is <span id="disp_page_title"></span>.</p>
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

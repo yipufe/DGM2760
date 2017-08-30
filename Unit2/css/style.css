@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;	
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/inspect.jpg");
+	height: 284px;
+}
+header h1 {
+	margin: 0px 0px 0px 40px;
+	color: #fff;
+	font-size: 50px;
+}
+header h2 {
+	margin: 0px 0px 0px 60px;
+	color: #65d1ff;
+	font-size: 30px;
+}
+.cont {
+	width: 940px;
+	padding-left: 20px;
+}
+table th{
+	text-align: left;
+}
+table th, table td {
+	padding: 4px 10px;
+}
+footer {
+	background-color: #4d4dd0;
+	color: #fff;
+}
+ul, p, table td {
+	font-family: sans-serif;	
+}
