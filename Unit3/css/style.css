@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/question.jpg");
+	height: 320px;
+}
+header h1 {
+	margin: 0px 0px 0px 12px;
+	padding: 40px 0px 0px;
+	color: #fff;
+	font-size: 50px;
+}
+header h2 {
+	margin: 0px 0px 0px 60px;
+	color: #000;
+	font-size: 30px;
+}
+.cont {
+	width: 940px;
+	padding-left: 20px;
+}
+footer {
+	background-color: #6b6b6b;
+	color: #fff;
+}
+#game #guess_area {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 250px;
+}
+#game input {
+	text-align: center;
+    width: 60px;
+    border-radius: 14px;
+    border: 1px solid #333;
+    font-size: 45px;  
+    font-size: 35px;
+    height: 50px;  
+}
+#game button {
+	font-size: 35px;
+    height: 55px;	
+    width: 160px;
+    border-radius: 8px;
+    border: 3px solid #000;
+    background-color: #d61a1a;
+    color: #fff;
+    cursor: pointer;
+}
+#game button:hover {
+	background-color: #b71919;
+}
+#game button:active {
+	background-color: #9e1b1b;	
+}
+#guess_val_cont {
+	text-align: center;
+	font-size: 45px;
+	margin: 0px;
+}
+#game_message {
+	text-align: center;
+	font-size: 30px;
+	margin: 5px 0px;
+}
+#award_box {
+	height: 330px;
+    width: 225px;
+    border: 6px dotted #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: 10px;
+
+/*    -webkit-animation: colorshift 4s infinite;
+    animation: colorshift 4s infinite;*/
+}
+@-webkit-keyframes colorshift {
+	0% {    border: 6px dotted #fdd; }
+	16% {    border: 6px dotted #ff2; }
+	33% {    border: 6px dotted #dfd; }
+	50% {    border: 6px dotted #2ff; }
+	67% {    border: 6px dotted #ddf; }
+	83% {    border: 6px dotted #fdf; }
+	100% {    border: 6px dotted #fdd; }
+}
+@keyframes colorshift {
+	0% {    border: 6px dotted #fdd; }
+	16% {    border: 6px dotted #ff2; }
+	33% {    border: 6px dotted #dfd; }
+	50% {    border: 6px dotted #2ff; }
+	67% {    border: 6px dotted #ddf; }
+	83% {    border: 6px dotted #fdf; }
+	100% {    border: 6px dotted #fdd; }
+}
+
+#award_box img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#game_instructions {
+	text-align: center;
+	margin-top: 0px;
+}
+#game_instructions_header {
+	text-align: center;
+	margin-bottom: 0px;
+    width: 163px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d61a1a;
+    color: #fff;
+    border-radius: 5px;	
+    border: 2px solid #000;
+}

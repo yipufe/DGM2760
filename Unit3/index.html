@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>High/Low Guessing Game</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link rel="icon" href="img/question_icon.png">
+		
+	</head>
+	<body onload="init()">
+		<header>
+			<h1 id="c_name"></h1>
+			<h2 id="c_slogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Come Play!</h1>
+			<h2>Skills demonstrated</h2>
+			<ul>
+				<li>Building functions</li>
+				<li>Using switch statements</li>
+				<li>Generating random numbers</li>
+				<li>Dynamically load content using javascript and appending it</li>
+			</ul>
+			<hr>
+			<h2 id="game_instructions_header">Instructions</h2>
+			<p id="game_instructions">In as few guesses as you can,<br>guess the number between 1 and 15.<br>Refresh the page to restart the game.<br>Good luck!</p>
+			<div id="game">
+				<div id="guess_area">
+					<input id="guess_box" type="text">
+					<button onclick="make_guess()">Guess</button>
+				</div>
+				<p id="guess_val_cont"><span id="guess_val"></span></p>
+				<p id="game_message">Make a guess</p>
+				<div id="award_box"></div>
+			</div>
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
