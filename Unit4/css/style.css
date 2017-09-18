@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/eye.jpg");
+	height: 300px;
+	border-bottom: 1px solid #999;	
+}
+header h1 {
+	margin: 0px 0px 0px 40px;
+	padding: 40px 0px 0px;
+	color: #fff;
+	font-size: 50px;
+}
+header h2 {
+	margin: 0px 0px 0px 60px;
+	color: #eeff08;
+	font-size: 30px;
+	text-shadow: 0px 0px 20px #000;	
+}
+.cont {
+	width: 940px;
+	padding-left: 20px;
+}
+footer {
+	background-color: #004d69;
+	color: #ffdcdc;
+}
+.cont h1 {
+	margin-top: 0px;
+	color: #c55c5c;	
+}
+.cont {
+	padding-bottom: 10px;
+	background-color: #001b26;
+    color: #ffdcdc;
+}
+#fortune {
+	font-family: 'Work Sans', sans-serif;
+	background-color: #006a95;
+    padding: 13px;
+    margin-right: 20px;	
+    font-size: 20px;	
+}
