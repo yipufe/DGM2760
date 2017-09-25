@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/tree.jpg");
+	height: 284px;
+}
+header h1 {
+	margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 40px;
+	color: #fff;
+	font-size: 50px;
+    text-shadow: 0px 0px 4px #000;
+    /*background-color: rgba(255,255,255,0.4);*/
+}
+header h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 40px;
+	color: #fff;
+	font-size: 30px;
+    text-shadow: 0px 0px 4px #000;
+    /*background-color: rgba(255,255,255,0.4);*/
+}
+.cont {
+	width: 960px;
+}
+.cont h1, .cont h2 {
+	color: #080;
+}
+footer {
+	background-color: #080;
+	color: #fff;
+}
+table th:nth-of-type(2n) {
+	background-color: #0c0;
+}
+table th:nth-of-type(2n+1) {
+	background-color: #0a0;
+}
+#dispList ul {
+	margin: 0px;
+	padding: 0px;
+}
+#dispList ul li {
+	display:inline-block;
+	padding: 10px;
+}
+#dispList ul li {
+    background-color: #fff;
+    border-bottom: 10px solid #f4f4f4;
+    padding: 3px 15px;
+    margin: 5px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 0px 5px #ddd;     
+}
+#dispList ul li::first-letter {
+	font-size: 30px;
+}
+#dispMsgBox {
+	background-color: #ffff00;
+	color: #882;
+	height: 18px;
+	padding: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+	border: 2px solid #e8e83b;
+}
+#listCount {
+	font-size: 20px;
+	font-weight: bold;
+}

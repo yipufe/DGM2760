@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Arborist</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="icon" href="img/leaf_icon_2.png">
+	</head>
+	<body onload="init()">
+		<header>
+			<h1 id="c_name"></h1>
+			<h2 id="c_slogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Arrays</h1>
+			<h2>Skills displayed</h2>
+			<ul>
+				<li>Working with arrays</li>
+				<li>Error checking</li>
+				<li>Event handlers/listeners</li>
+			</ul>
+			<table>
+				<tr>
+					<th>Add</th>
+					<th>Remove</th>
+					<th>Sort</th>
+					<th>Case</th>
+					<th>Display</th>
+				</tr>
+				<tr>
+					<td>
+						<button id="btnAddStart">Add to start</button>
+						<button id="btnAddEnd">Add to end</button>
+					</td>
+					<td>
+						<button id="btnRemoveFirst">Remove first</button>
+						<button id="btnRemoveSecond">Remove second</button>
+						<button id="btnRemoveLast">Remove last</button>						
+					</td>
+					<td>
+						<button id="btnSort">Sort</button>			
+					</td>
+					<td>
+						<button id="btnLowerCase">To lower case</button>						
+					</td>
+					<td>
+						<button id="btnDispThird">Display element three</button>
+						<button id="btnDispFourth">Display element four</button>						
+					</td>
+				</tr>
+			</table>
+
+			<h2>Tree List</h2>
+			<div id="dispList"></div>
+			<div id="listCount"></div>
+			<div id="dispMsgBox">Message: <span id="dispMsg"></span></div>
+
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
