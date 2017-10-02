@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Nonsense Story</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link rel="icon" href="img/book_icon_5.png">
+	</head>
+	<body onload="init()">
+		<header>
+			<h1 id="cName"></h1>
+			<h2 id="cSlogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Story time</h1>
+			<h2>Skills displayed</h2>
+			<ul>
+				<li>Using split() with regex</li>
+				<li>String concatination</li>
+				<li>Accessing elements in an array</li>
+				<li>Converting text to lower case</li>
+			</ul>
+			<div class="entryBox">
+				<h2 id="nounTitle">6 Nouns</h2>
+				<textarea rows="10" cols="40" id="nouns"></textarea>
+			</div>
+			<div class="entryBox">
+				<h2 id="adjectiveTitle">5 Adjectives</h2>
+				<textarea rows="10" cols="40" id="adjective"></textarea>
+			</div>
+			<div class="entryBox">
+				<h2 id="verbTitle">3 Verbs</h2>
+				<textarea rows="10" cols="40" id="verb"></textarea>
+			</div>
+			<button id="generateStory">Generate</button>
+			
+			<div id="story"></div>
+
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

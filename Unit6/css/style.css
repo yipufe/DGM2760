@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/book.jpg");
+	height: 300px;
+}
+header h1 {
+	margin: 0px 0px 0px 190px;
+	padding: 40px 0px 0px;
+	color: #e60000;
+	font-size: 50px;
+}
+header h2 {
+	margin: 0px 0px 0px 190px;
+	color: #d30000;
+	font-size: 30px;
+}
+.cont {
+	width: 940px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+footer {
+	background-color: #4d4dd0;
+	color: #fff;
+}
+.noun {
+	font-weight: bold;
+	font-size: 150%;
+	color: #f00;
+}
+.adjective {
+	font-weight: bold;
+	font-size: 150%;
+	color: #0f0;
+}
+.verb {
+	font-weight: bold;
+	font-size: 150%;
+	color: #00f;
+}
+#nounTitle { color: #f00; }
+#adjectiveTitle { color: #0f0; }
+#verbTitle { color: #00f; }
+.entryBox {
+	display: inline-block;
+}
+#story {
+    line-height: 24px;
+}
+#err {
+	font-size: 150%;
+	color: #f80;
+	font-weight: bold;
+}
