@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pizza Emporium</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link rel="icon" href="img/pizza_icon_2.png">
+	</head>
+	<body onload="init()">
+		<header>
+			<h1 id="cName"></h1>
+			<h2 id="cSlogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Order your pizza</h1>
+			<h2>Skills displayed</h2>
+			<ul>
+				<li>Working with objects</li>
+				<li>Changing object properties</li>
+				<li>Calling object methods</li>
+			</ul>
+			<h2>Build your pizza</h2>
+			<div class="toppingdiv">
+				<h3>Topping</h3>
+				<button onclick="pizza.topping='pepperoni'">Pepperoni</button>
+				<button onclick="pizza.topping='pineapple'">Pineapple</button>
+				<button onclick="pizza.topping='sausage'">Sausage</button>
+				<button onclick="pizza.topping='chicken'">Chicken</button>
+				<h3>Size</h3>
+				<button onclick="pizza.size='small'">Small</button>
+				<button onclick="pizza.size='medium'">Medium</button>
+				<button onclick="pizza.size='large'">Large</button>
+			</div>
+			<div class="toppingdiv">
+				<h3>Crust</h3>
+				<button onclick="pizza.crust='thin'">Thin crust</button>
+				<button onclick="pizza.crust='thick'">Thick crust</button>
+				<h3>Sause</h3>
+				<button onclick="pizza.sause='red'">Red sause</button>
+				<button onclick="pizza.sause='white'">White sause</button>
+			</div>
+			<h3>Options</h3>
+			<button onclick="pizza.build()">Build</button>
+			<button onclick="pizza.list()">Shopping List</button>
+
+			<div id="message"></div>
+
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
