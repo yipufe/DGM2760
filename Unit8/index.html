@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Grants Tomb</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link rel="icon" href="img/tomb_icon_2.png">
+	</head>
+	<body onload="init()">
+		<header>
+			<h1 id="cName"></h1>
+			<h2 id="cSlogan"></h2>
+		</header>
+		<div class="cont">
+			<h1>Object Literal</h1>
+			<h2>Skills displayed</h2>
+			<ul>
+				<li>Working with objects</li>
+				<li>Use of object properties</li>
+				<li>Use of object methods</li>
+				<li>Accessing element with getElementById</li>
+			</ul>
+
+			<div id="question"></div>
+			<button onclick="question.check(1)" class="ans" id="answere1"></button>
+			<button onclick="question.check(2)" class="ans" id="answere2"></button>
+			<button onclick="question.check(3)" class="ans" id="answere3"></button>
+			<button onclick="question.check(4)" class="ans" id="answere4"></button>
+			<div id="message"></div>
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

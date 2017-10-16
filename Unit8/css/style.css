@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+header, .cont, footer {
+	width: 960px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	background-image: url("../img/tomb.jpg");
+	height: 300px;
+}
+header h1 {
+	margin: 0px 0px 0px 90px;
+	padding: 40px 0px 0px;
+	color: #fff;
+	font-size: 50px;
+    text-shadow: 1px 1px 4px #000;
+}
+header h2 {
+	margin: 0px 0px 0px 90px;
+	color: #fff;
+	font-size: 30px;
+    text-shadow: 1px 1px 2px #000;
+}
+.cont {
+	width: 940px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+footer {
+	background-color: #8c6558;
+	color: #fff;
+}
+#question, #message {
+	padding: 10px;
+	height: 20px;
+	width: 300px;
+}
+#question { background-color: #eaeace; }
+#message { 
+	font-weight: bold;
+    background-color: #dada84; 
+}
+.ans {
+	display: block;
+	width: 320px;
+	padding: 10px;
+	text-align: left;
+}
