@@ -1,0 +1,25 @@
+[   {
+    "name":"Adventures Cove",
+    "description":"A wonderful suite and spacious room with all your will need to make your stay delightful. Cool down in our onsite pool and enjoy our complimentary breakfast. We guarantee you will love your stay.",
+    "cost":{"weekend":"$139.00", "weekday":"$104.00"},
+    "details":["Flatscreen TV","Swimming Pool","Refrigerator","Free WIFI","Complimentary Breakfast","Cable"],
+    "photo":"images/548927521.jpg",
+    "photoAttr":""
+    },
+    {
+    "name":"Peter's Escape",
+    "description":"Look no further and feel right at home. Enjoy our enormous rooms with an equally large bathroom. You will love the breath taking view of the mountains. Each room is equipped with microwave to help make your stay more convenient.",
+    "cost":{"weekend":"$185.00", "weekday":"$164.00"},
+    "details":["Spacious Bathroom","King Sized Bed", "Microwave", "Flatscreen TV", "Great View", "Swimming Pool"],
+    "photo":"images/ID-10083549.jpg",
+    "photoAttr":"Image courtesy of MR LIGHTMAN at FreeDigitalPhotos.net"
+    },
+    {
+    "name":"Columbus Suite",
+    "description":"These luxurious suites are always a favorite with guests. Equipped with small kitchen and dining area to make your extended stay comfortable and convenient. Enjoy with family or friends, these rooms come with two queen sized beds for larger groups.",
+    "cost":{"weekend":"$232.00", "weekday":"$210.00"},
+    "details":["Extra large living space","Sofa and coffee table","Swimming Pool","Oven", "Sink", "TV", "Two queen sized Beds"],
+    "photo":"images/ID-100527980.jpg",
+    "photoAttr":"Image courtesy of dfrsce at FreeDigitalPhotos.net"
+    }
+]
