@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Electronic Rolodex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link rel="icon" href="img/rolodex_card_icon_3.png">
+
+		<script src="https://use.fontawesome.com/3332fff8ce.js"></script>
+
+	</head>
+	<body onload="init()">
+<!--
+		<header>
+			<h1 id="cName"></h1>
+			<h2 id="cSlogan"></h2>
+		</header>
+-->
+		<div class="cont">
+			<h1>Electronic Rolodex</h1>
+			<form name="contactForm" id="contactForm">
+				<input type="text" id="contactName" name="contactName" placeholder="Name"><br/>
+				<p id="nameErr" class="hidden">Please enter a name</p>
+				<input type="text" id="contactAddress" name="contactAddress" placeholder="Address"><br/>
+				<p id="addrErr" class="hidden">Please enter an address</p>
+				<input type="text" name="contactNumber" placeholder="801-555-1212" id="phoneNumber"><br/>
+				<p id="numberErr" class="hidden">Invalid phone number, please enter a number between 10 and 15 digits long.</p>
+				<p id="addBtn"><a onclick="return addContact()"><i class="fa fa-plus-circle fa-2x"></i> Add Contact</a></p>
+			</form>
+			<div id="rolodex"></div>
+		</div>
+		<footer>
+			Created by Ryan Manwill
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

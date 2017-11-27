@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	font-family: Tahoma, Geneva, sans-serif;	
+}
+@media only screen and (min-width: 500px) {
+	header, .cont, footer {
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+	}
+}
+header, .cont, footer {
+	display: block;
+}
+.cont {
+	padding: 0px 10px 14px;	
+}
+.cont h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+footer {
+	background-color: #000;
+	color: #fff;
+}
+#contactForm input {
+	width: 100%;
+	margin: 2px 0px;
+}
+#contactForm a {
+	border: none;
+    padding: 17px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+#contactForm .hidden {
+	display: none;
+}
+#contactForm input.error {
+	color: #a00;
+	background-color: #faa;
+}
+#contactForm p.error {
+	color: #a00;
+	font-weight: bold;
+	margin: 0px;
+}
+#contactForm #addBtn {
+	text-align: center;
+}
+#contactForm input {
+	font-size: 18px;
+}
+
+
+#rolodex div {
+	border-bottom: 1px solid #ddd;
+}
+#rolodex div:last-of-type {
+	border-bottom: none;
+}
+#rolodex .delete {
+	cursor: pointer;
+	float: right;
+}
+#rolodex .name {
+	margin-bottom: 0px;
+    font-size: 30px;
+    width: 80%;
+	margin-bottom: 12px; 
+}
+#rolodex .address {
+	margin: 0px;
+    width: 80%;
+    padding-left: 20px;
+}
+#rolodex .address i {
+	vertical-align: middle;
+}
+#rolodex .address a {
+	display: inline-block;
+	width: 85%;	
+	vertical-align: middle;
+
+}
+#rolodex .phoneNumber {
+	margin-top: 0px;
+    width: 80%;
+    padding: 0px 0px 20px 20px;
+}
+#rolodex .address i, #rolodex .phoneNumber i {
+	width: 36px;
+	position: relative;
+	top: 4px;
+    text-shadow: 1px 1px 2px #333;		
+    font-size: 28px;
+}
+#rolodex a {
+	text-decoration: none;
+}
+#addBtn i {
+	position: relative;
+	top: 7px;
+}
+i {
+	color: #ddd;
+}
